@@ -75,7 +75,7 @@ if (process.env.NODE_ENV && process.env.NODE_ENV === 'production') {
 module.exports = {
   entry: {
     index: indexEntries,
-    vendor: [ 'react', 'react-dom', 'redux', 'react-redux'],
+    vendor: [ 'react', 'react-dom' ],
   },
   output: {
     path: distPath,

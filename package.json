@@ -1,7 +1,7 @@
 {
   "name": "league",
   "version": "1.0.0",
-  "description": "a practice of react & redux",
+  "description": "santa‘s personal website",
   "main": "index.js",
   "scripts": {
     "start": "./node_modules/webpack/bin/webpack.js -w --progress --e dev",
@@ -10,18 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alwaysonlinetxm/league.git"
+    "url": "https://github.com/alwaysonlinetxm/santa.git"
   },
-  "keywords": [
-    "react",
-    "redux"
-  ],
   "author": "alwaysonlinetxm",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alwaysonlinetxm/league/issues"
+    "url": "https://github.com/alwaysonlinetxm/santa/issues"
   },
-  "homepage": "https://github.com/alwaysonlinetxm/league",
+  "homepage": "https://github.com/alwaysonlinetxm/santa",
   "devDependencies": {
     "autoprefixer": "^6.5.1",
     "babel-core": "^6.18.2",
@@ -43,8 +39,6 @@
     "keymirror": "^0.1.1",
     "node-sass": "^3.11.1",
     "postcss-loader": "^1.1.0",
-    "postcss-px2rem": "^0.3.0",
-    "reselect": "^2.5.4",
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
@@ -56,16 +50,8 @@
     "babel-eslint": "^7.1.0",
     "classnames": "^2.2.5",
     "eslint-plugin-react": "^6.5.0",
-    "isomorphic-fetch": "^2.2.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "react-redux": "^4.4.5",
-    "react-router": "^3.0.0",
-    "redux": "^3.6.0",
-    "redux-actions": "^0.13.0",
-    "redux-logger": "^2.7.4",
-    "redux-saga": "^0.12.1",
-    "redux-thunk": "^2.1.0",
-    "seamless-immutable": "^6.3.0"
+    "react-router": "^3.0.0"
   }
 }
