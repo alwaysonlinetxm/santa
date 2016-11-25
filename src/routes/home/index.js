@@ -18,7 +18,7 @@ export default class Home extends PureComponent {
 
     return (
       <div className={ Style.home } onClick={ this.toDetail }>
-        home
+        santa 爱睡觉
       </div>
     );
   }
