@@ -13,18 +13,6 @@
   }
 }
 
-@mixin font-dpr($font-size){
-  font-size: $font-size;
-
-  [data-dpr="2"] & {
-    font-size: $font-size * 2;
-  }
-
-  [data-dpr="3"] & {
-    font-size: $font-size * 3;
-  }
-}
-
 @mixin icon-arrow($size, $deg, $border, $color) {
 	position: relative;
 	z-index: 1;

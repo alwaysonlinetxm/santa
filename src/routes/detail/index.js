@@ -1,4 +1,4 @@
-import React, { PureComponent, PropTypes } from 'react';
+import React, { PureComponent } from 'react';
 import Style from './Detail.scss';
 
 export default class Detail extends PureComponent {

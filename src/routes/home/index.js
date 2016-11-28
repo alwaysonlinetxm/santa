@@ -1,6 +1,8 @@
 import React, { PureComponent, PropTypes } from 'react';
-import classnames from 'classnames';
-import Util from '../../libs/util';
+// import classnames from 'classnames';
+// import Util from '../../libs/util';
+import { INDEX_LIST } from '../../constants/Data';
+import ListItem from './components/ListItem';
 import Style from './Home.scss';
 
 export default class Home extends PureComponent {
@@ -17,8 +19,13 @@ export default class Home extends PureComponent {
     // const { names, text } = this.props;
 
     return (
-      <div className={ Style.home } onClick={ this.toDetail }>
-        santa 爱睡觉
+      <div>
+        <header className={ Style.header }>santa 爱睡觉</header>
+        <ul className={ Style.list }>
+          {
+            INDEX_LIST.map((node, i) => <ListItem node={ node } key={ i } />)
+          }
+        </ul>
       </div>
     );
   }
