@@ -84,6 +84,12 @@ module.exports = {
     // publicPath: "/",
   },
   devtool: devtool,
+	resolve: {
+    alias: {
+      'react': 'react-lite',
+      'react-dom': 'react-lite'
+    }
+  },
   module: {
     preLoaders: [{
       test: /\.js$/,
